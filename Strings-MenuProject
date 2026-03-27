@@ -1,0 +1,7 @@
+Item1 = input("Please enter Item name")
+Price = input("Enter the price")
+len1 = len(Item1) + len(Price)
+print(len1)
+dots = '-' * (20 - len1)
+for i in range (3):
+ print (Item1 + dots + Price)
