@@ -1,0 +1,5 @@
+card = input("Enter Credit Card Number")
+LastFourDigits = card[15 : : ]
+hide = '*' * 4 + " "
+show = hide * 3 + LastFourDigits
+print(show)
