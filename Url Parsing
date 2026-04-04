@@ -13,3 +13,9 @@ page = url[url.rfind( '/'):]
 print("Protocol:", protocol)
 print("Domain:", domain)
 print("Page:", page)
+
+
+#OUTPUT: 
+#Protocol: https
+#Domain: kaggle
+#Page: /datasets
