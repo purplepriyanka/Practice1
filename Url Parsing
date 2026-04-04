@@ -1,0 +1,15 @@
+url = 'https://www.kaggle.com/datasets'
+# TODO: Find the position of the colon (:) to extract protocol
+protocol = url[:url.find(':'):]
+
+# TODO: Find the positions of the dots (.) to locate the start/end of the domain
+dot1 = url.find('.')
+dot2 = url.rfind('.')
+domain = url[dot1 +1: dot2: ]
+
+# TODO: Find the slash after the domain and slice to get the page part
+page = url[url.rfind( '/'):]
+
+print("Protocol:", protocol)
+print("Domain:", domain)
+print("Page:", page)
