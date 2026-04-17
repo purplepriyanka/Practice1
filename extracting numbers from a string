@@ -1,0 +1,3 @@
+text = "I have 3 cats and 12 dogs and 1 fish"
+numbers = re.findall(r'\d+', text)
+print(numbers)  # ['3', '12', '1']
