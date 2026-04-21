@@ -10,15 +10,10 @@ total_hours = 0
 for i in range(len(hours)):
     total_hours = total_hours + hours[i]
 
-# Use an if...else to determine if there is overtime
 if total_hours <= 40:
     total_wages = total_hours * wage
 else:
     overtime = total_hours - 40
     total_wages = 40 * wage + overtime * wage * 1.5
-    
-#total_wages = (40 * 40 ) + (overtime * 1.5)
-
-# Print the total wages with a clear message
 
 print('Total Wages  :', total_wages)
