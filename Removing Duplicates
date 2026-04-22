@@ -1,0 +1,9 @@
+L1 = [3, 5, 7, 9, 3, 6, 5, 2, 3, 7, 10]
+
+res = []
+
+for i in L1:
+    if i not in res:
+      res.append(i)
+
+print("Deduplicated List : ", res)
